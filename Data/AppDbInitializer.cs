@@ -33,6 +33,7 @@ public class AppDbInitializer
                     DateAdded = DateTime.Now
                 }
                 );
+                context.SaveChanges();
             }
         }
     }
