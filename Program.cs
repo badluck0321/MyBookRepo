@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<BooksServices>();
 builder.Services.AddDbContext<AppDbContext>(Opt => Opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -19,6 +20,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+AppDbInitializer.Seed(app);
 
 app.UseHttpsRedirection();
 
@@ -27,4 +29,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-AppDbInitializer.Seed(app);
