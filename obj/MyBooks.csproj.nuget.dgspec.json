@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/badluck/MyBooks/MyBooks.csproj": {}
+    "C:\\Users\\Bad-Luck\\Desktop\\MyBooks\\MyBooks.csproj": {}
   },
   "projects": {
-    "/home/badluck/MyBooks/MyBooks.csproj": {
+    "C:\\Users\\Bad-Luck\\Desktop\\MyBooks\\MyBooks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/badluck/MyBooks/MyBooks.csproj",
+        "projectUniqueName": "C:\\Users\\Bad-Luck\\Desktop\\MyBooks\\MyBooks.csproj",
         "projectName": "MyBooks",
-        "projectPath": "/home/badluck/MyBooks/MyBooks.csproj",
-        "packagesPath": "/home/badluck/.nuget/packages/",
-        "outputPath": "/home/badluck/MyBooks/obj/",
+        "projectPath": "C:\\Users\\Bad-Luck\\Desktop\\MyBooks\\MyBooks.csproj",
+        "packagesPath": "C:\\Users\\Bad-Luck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bad-Luck\\Desktop\\MyBooks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/badluck/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Bad-Luck\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -42,7 +42,21 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
             },
@@ -70,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
